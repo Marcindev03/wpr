@@ -1,5 +1,5 @@
-import Showcase from '../../components/layout/Showcase';
-import TournamentCard from '../../components/TournamentCard';
+import Showcase from '../../../components/layout/Showcase';
+import TournamentCard from '../../../components/TournamentCard';
 
 const Konkursy = ({ tournaments }) => {
   return (
@@ -18,7 +18,7 @@ Konkursy.defaultProps = {
   tournaments: [
     {
       title: 'Sejfy',
-      href: '/live/sejfy',
+      href: '/live/konkursy/sejfy',
       img: '/assets/SEJF.png',
     },
   ],
