@@ -1,10 +1,17 @@
-import Link from 'next/link';
+import Meta from '../components/layout/Meta';
 
 import Showcase from '../components/layout/Showcase';
 
 const Contact = () => {
   return (
     <>
+      <Meta
+        title={'WPR - Skontaktuj się'}
+        keywords={'WPR, kontakt, WPR kontakt, email'}
+        description={
+          'Zapraszamy do kontaktu na email: wolnoscporemoncie@gmail.com'
+        }
+      />
       <Showcase
         title={'Skontaktuj się z '}
         linkContent={'WPR SHITPOST'}
