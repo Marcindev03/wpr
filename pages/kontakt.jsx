@@ -1,6 +1,6 @@
-import Meta from '../components/layout/Meta';
+import Meta from '@components/layout/Meta';
 
-import Showcase from '../components/layout/Showcase';
+import Showcase from '@components/layout/Showcase';
 
 const Contact = () => {
   return (

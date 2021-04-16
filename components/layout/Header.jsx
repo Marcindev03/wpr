@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import Navbar from './Navbar';
+import Navbar from '@components/layout/Navbar';
 
-import style from '../../styles/Header.module.scss';
+import style from '@styles/Header.module.scss';
 
 const Header = ({ title }) => {
   return (

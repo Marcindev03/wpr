@@ -1,8 +1,8 @@
-import { SafesWrapper } from '../context/safesState';
+import { SafesWrapper } from '@context/safesState';
 
-import Layout from '../components/layout/Layout';
+import Layout from '@components/layout/Layout';
 
-import '../styles/globals.scss';
+import '@styles/globals.scss';
 
 function MyApp({ Component, pageProps }) {
   return (

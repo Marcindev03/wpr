@@ -1,10 +1,16 @@
 import Link from 'next/link';
 
-import Showcase from '../components/layout/Showcase';
+import Meta from '@components/layout/Meta';
+import Showcase from '@components/layout/Showcase';
 
 const Support = () => {
   return (
     <>
+      <Meta
+        title={'WPR - jak możesz nas wesprzeć'}
+        keywords={'WPR, wsparcie'}
+        description={'Jak można wesprzeć WPR'}
+      />
       <Showcase
         title={'Jak możesz wesprzeć '}
         linkContent={'WPR SHITPOST'}

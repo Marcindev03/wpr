@@ -1,7 +1,7 @@
-import Video from '../components/Video';
-import Showcase from '../components/layout/Showcase';
+import Video from '@components/Video';
+import Showcase from '@components/layout/Showcase';
 
-import style from '../styles/Home.module.scss';
+import style from '@styles/Home.module.scss';
 
 const Home = ({ videos }) => {
   return (

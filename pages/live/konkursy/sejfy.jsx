@@ -1,13 +1,21 @@
 import Image from 'next/image';
 import { useState } from 'react';
 
-import { useSafesContext } from '../../../context/safesState';
+import { useSafesContext } from '@context/safesState';
 
-import Showcase from '../../../components/layout/Showcase';
+import Meta from '@components/layout/Meta';
+import Showcase from '@components/layout/Showcase';
 
 const Sejfy = ({ safes }) => {
   return (
     <>
+      <Meta
+        title={'WPR - Sejfy WPR'}
+        keywords={'sejfy, WPR, konkurs'}
+        description={
+          'Wszystkim znana gra, wybierz sefj i zobacz co się w nim znajduje'
+        }
+      />
       <Showcase
         title={'Konkurs Sefjów'}
         linkContent={'WPR'}
